@@ -1,0 +1,23 @@
+# editorconfig.org
+root = true
+
+## APPLIED TO ALL FILES
+[*]
+# use spaces as indentation
+indent_style = space
+indent_size = 2
+# end lines in unix-style newlines
+end_of_line = lf
+# default file charset
+charset = utf-8
+# remove any whitespace characters preceding newline characters
+trim_trailing_whitespace = true
+# ensure file ends with a newline
+insert_final_newline = true
+
+
+# APPLIED TO DM (Markdown) FILES ONLY
+[*.md]
+# DO NOT remove whitespace characters preceeding newline characters
+#        (required for markdown to work properly)
+trim_trailing_whitespace = false
