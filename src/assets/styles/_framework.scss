@@ -1,0 +1,38 @@
+// This file expose a mixin that allows you to import the necessary modules from:
+//    - Zurb Foundation
+
+// Foundation Framework
+@import '../../../node_modules/foundation-sites/scss/foundation';
+
+@mixin framework($flex: false) {
+
+  // Foundation Mixins
+  @if $flex {
+    $global-flexbox: true !global;
+  }
+
+  @include foundation-global-styles;
+  @if not $flex {
+    @include foundation-grid;
+  }
+  @else {
+    @include foundation-flex-grid;
+  }
+  @include foundation-typography;
+  @include foundation-forms;
+  @include foundation-button;
+  @include foundation-button-group;
+  @include foundation-accordion;
+  @include foundation-breadcrumbs;
+  @include foundation-menu;
+  @include foundation-label;
+  @include foundation-pagination;
+  @include foundation-table;
+  @include foundation-tooltip;
+  @include foundation-visibility-classes;
+  @include foundation-float-classes;
+
+  @if $flex {
+    @include foundation-flex-classes;
+  }
+}
