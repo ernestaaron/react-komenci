@@ -3,6 +3,8 @@ const chalk = require('chalk');
 const help = () => {
   const breakM1 = '\n                ';
   const breakM2 = '\n                                ';
+
+  /*eslint-disable no-console*/
   console.log("The most used commands are:");
   console.log("");
   console.log("  `"+chalk.cyan("npm start") + "` - starts the project in development mode and keep watching for changes" + breakM1 +
@@ -28,6 +30,7 @@ const help = () => {
                                                                   "continuous integration service");
   console.log("  `"+chalk.cyan("npm run help") + "`              - shows this help content");
   console.log("\n");
+  /*eslint-enable no-console*/
 };
 
 help();
