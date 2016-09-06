@@ -25,7 +25,8 @@
     "start": "npm-run-all --parallel test:watch serve:dev lint:watch",
     "prebuild": "npm run clean && npm run lint && npm run test",
     "build": "babel-node tools/build.js",
-    "build:start": "babel-node tools/build.js && npm run start-message:prod && npm run serve:prod"
+    "build:start": "babel-node tools/build.js && npm run start-message:prod && npm run serve:prod",
+    "help": "babel-node tools/help.js"
   },
   "repository": {
     "type": "git",
