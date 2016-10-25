@@ -17,7 +17,7 @@ class App extends Component {
   render() {
     const children = this.props.children;
     return (
-      <div className="expanded row column">
+      <div>
         <AppHeader />
 
         {children}

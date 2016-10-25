@@ -1,0 +1,16 @@
+/* === component: global footer ===============================================*/
+.footer-wrapper {
+  background-color: #393636;
+}
+
+footer {
+  height: auto;
+
+  .nav-footer {
+    margin-top: 1rem;
+  }
+
+  font-size: 0.85rem;
+  line-height: 1.8;
+  color: white;
+}

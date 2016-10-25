@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 
 const PageNotFound = () => {
   return (
-    <div>
+    <div className="row column">
       <h1>Whoops! That was unexpected...</h1>
       <p>Lets go back to the <Link to="/">homepage</Link></p>
     </div>

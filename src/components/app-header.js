@@ -3,7 +3,9 @@ import NavTop from './nav-top';
 
 const AppHeader = () => {
   return (
-    <NavTop />
+    <div className="header-wrapper">
+      <NavTop />
+    </div>
   );
 };
 

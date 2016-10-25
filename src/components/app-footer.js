@@ -3,7 +3,7 @@ import NavFooter from './nav-footer';
 
 const AppFooter = () => {
   return (
-    <div className="expanded row column">
+    <div className="footer-wrapper">
       <NavFooter />
     </div>
   );
