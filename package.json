@@ -1,6 +1,6 @@
 {
   "name": "react-komenci",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "react-komenci is a react starter kit wrapping the minimum number of packages needed to build real world applications",
   "author": "marcos abreu",
   "private": true,
