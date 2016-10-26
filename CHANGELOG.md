@@ -1,5 +1,17 @@
 # Change Log
 
+## [1.1.4](https://gitlab.com/abreu.marcos/react-komenci/tags/1.1.4)
+[Full Changelog](https://gitlab.com/abreu.marcos/react-komenci/tags/1.1.4)
+
+**Implemented enhancements**
+- improve help npm script, based on feedback
+
+**Fixed bugs:**
+- fix issue with npm build:start script reference
+- fix changelog links
+
+**Merged pull requests:**
+
 ## [1.1.3](https://gitlab.com/abreu.marcos/react-komenci/tags/1.1.3)
 [Full Changelog](https://gitlab.com/abreu.marcos/react-komenci/tags/1.1.3)
 
