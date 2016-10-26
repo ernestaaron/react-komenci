@@ -1,5 +1,17 @@
 # Change Log
 
+## [1.1.3](https://gitlab.com/abreu.marcos/react-komenci-cli/tags/1.1.3)
+[Full Changelog](https://gitlab.com/abreu.marcos/react-komenci-cli/commits/1.1.3)
+
+**Implemented enhancements**
+
+**Fixed bugs:**
+- fix issue on eslint JSON file structure
+
+**Merged pull requests:**
+
+
+
 ## [1.1.2](https://gitlab.com/abreu.marcos/react-komenci-cli/tags/1.1.2)
 [Full Changelog](https://gitlab.com/abreu.marcos/react-komenci-cli/commits/1.1.2)
 
