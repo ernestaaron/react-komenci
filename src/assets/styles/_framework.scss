@@ -4,7 +4,7 @@
 // Foundation Framework
 @import '../../../node_modules/foundation-sites/scss/foundation';
 
-@mixin framework($flex: false) {
+@mixin framework($flex: true) {
 
   // Foundation Mixins
   @if $flex {
