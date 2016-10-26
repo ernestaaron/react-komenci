@@ -4,13 +4,11 @@
 // Import Framework Mixin
 @import "framework";
 
-// Override necessary Framework(s) variables and global styles
-@import
-  "variables",
-  "globals";
+// Project specific style rules
+// ============================================================================
 
-// Initialize Framework(s)
-@include framework(true); // true for flexbox
+// After importing and including the necessary framework pieces you should
+// include your project specific styles
 
 // Application Styles
 @import
