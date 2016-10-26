@@ -1,7 +1,7 @@
 # Change Log
 
-## [1.1.3](https://gitlab.com/abreu.marcos/react-komenci-cli/tags/1.1.3)
-[Full Changelog](https://gitlab.com/abreu.marcos/react-komenci-cli/commits/1.1.3)
+## [1.1.3](https://gitlab.com/abreu.marcos/react-komenci/tags/1.1.3)
+[Full Changelog](https://gitlab.com/abreu.marcos/react-komenci/tags/1.1.3)
 
 **Implemented enhancements**
 
@@ -12,8 +12,8 @@
 
 
 
-## [1.1.2](https://gitlab.com/abreu.marcos/react-komenci-cli/tags/1.1.2)
-[Full Changelog](https://gitlab.com/abreu.marcos/react-komenci-cli/commits/1.1.2)
+## [1.1.2](https://gitlab.com/abreu.marcos/react-komenci/tags/1.1.2)
+[Full Changelog](https://gitlab.com/abreu.marcos/react-komenci/tags/1.1.2)
 
 **Implemented enhancements**
 - improved build scripts
@@ -28,21 +28,20 @@
 
 
 
-## [1.1.1](https://gitlab.com/abreu.marcos/react-komenci-cli/tags/1.1.1)
-[Full Changelog](https://gitlab.com/abreu.marcos/react-komenci-cli/commits/1.1.1)
+## [1.1.1](https://gitlab.com/abreu.marcos/react-komenci/tags/1.1.1)
+[Full Changelog](https://gitlab.com/abreu.marcos/react-komenci/tags/1.1.1)
 
 **Implemented enhancements:**
 
 **Fixed bugs:**
 - fixed lint warnings for help command
- [\#050cb839](https://gitlab.com/abreu.marcos/react-komenci-cli/commit/050cb839529fb166c69b5678e48f676a3033c343)
 
 **Merged pull requests:**
 
 
 
-## [1.1.0](https://gitlab.com/abreu.marcos/react-komenci-cli/tags/1.1.0)
-[Full Changelog](https://gitlab.com/abreu.marcos/react-komenci-cli/commits/1.1.0)
+## [1.1.0](https://gitlab.com/abreu.marcos/react-komenci/tags/1.1.0)
+[Full Changelog](https://gitlab.com/abreu.marcos/react-komenci/tags/1.1.0)
 
 **Implemented enhancements:**
 - added help script to showcase npm scripts avaialble
@@ -53,8 +52,8 @@
 
 
 
-## [1.0.0](https://gitlab.com/abreu.marcos/react-komenci-cli/tags/1.0.0)
-[Full Changelog](https://gitlab.com/abreu.marcos/react-komenci-cli/commits/1.0.0)
+## [1.0.0](https://gitlab.com/abreu.marcos/react-komenci/tags/1.0.0)
+[Full Changelog](https://gitlab.com/abreu.marcos/react-komenci/tags/1.0.0)
 
 **Implemented enhancements:**
 
