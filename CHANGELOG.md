@@ -1,5 +1,18 @@
 # Change Log
 
+## [1.2.0](https://gitlab.com/abreu.marcos/react-komenci/tags/1.1.5)
+[Full Changelog](https://gitlab.com/abreu.marcos/react-komenci/tags/1.1.5)
+
+**Implemented enhancements**
+- improve testing stack with jsondom and lolex
+
+**Fixed bugs:**
+- fix test coverage report
+
+**Merged pull requests:**
+
+
+
 ## [1.1.4](https://gitlab.com/abreu.marcos/react-komenci/tags/1.1.4)
 [Full Changelog](https://gitlab.com/abreu.marcos/react-komenci/tags/1.1.4)
 
@@ -11,6 +24,8 @@
 - fix changelog links
 
 **Merged pull requests:**
+
+
 
 ## [1.1.3](https://gitlab.com/abreu.marcos/react-komenci/tags/1.1.3)
 [Full Changelog](https://gitlab.com/abreu.marcos/react-komenci/tags/1.1.3)
