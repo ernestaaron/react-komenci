@@ -14,9 +14,30 @@ process.env.NODE_ENV = 'test';
 // Disable webpack-specific features for tests since
 // Mocha doesn't know what to do with them.
 ['.css', '.scss', '.png', '.jpg', '.ico', '.gif', '.svg'].forEach(ext => {
-  require.extensions[ext] = () => null;
+  require.extensions[ext] = name => name;
 });
 
 // Register babel so that it will transpile ES6 to ES5
 // before our tests run.
 require('babel-register')();
+
+// jsdom configuration - a JavaScript implementation of the
+//                       WHATWG DOM and HTML standards, for use with Node.js.
+const jsdom = require('jsdom').jsdom;
+
+const exposedProperties = ['window', 'navigator', 'document'];
+
+global.document = jsdom('');
+global.window = document.defaultView;
+Object.keys(document.defaultView).forEach((property) => {
+  if (typeof global[property] === 'undefined') {
+    exposedProperties.push(property);
+    global[property] = document.defaultView[property];
+  }
+});
+
+global.navigator = {
+  userAgent: 'node.js'
+};
+
+// documentRef = document;
