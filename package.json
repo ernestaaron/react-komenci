@@ -28,7 +28,7 @@
     "start:dev": "npm-run-all prestart:dev --parallel test:watch serve:dev lint:watch",
     "start:local": "npm-run-all prestart:local server:local",
     "start": "npm run start:dev",
-    "build:start": "babel-node tools/build.js && npm run start-message:prod && npm run serve:prod",
+    "build:start": "babel-node tools/build.js && npm run start-message:prod && npm run serve:local",
     "help": "babel-node tools/help.js"
   },
   "repository": {
