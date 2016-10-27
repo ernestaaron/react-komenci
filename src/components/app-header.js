@@ -1,10 +1,10 @@
 import React from 'react';
-import NavTop from './nav-top';
+import AppHeaderNav from './app-header-nav';
 
 const AppHeader = () => {
   return (
     <div className="header-wrapper">
-      <NavTop />
+      <AppHeaderNav />
     </div>
   );
 };

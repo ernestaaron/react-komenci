@@ -1,10 +1,10 @@
 import React from 'react';
-import NavFooter from './nav-footer';
+import AppFooterNav from './app-footer-nav';
 
 const AppFooter = () => {
   return (
     <div className="footer-wrapper">
-      <NavFooter />
+      <AppFooterNav />
     </div>
   );
 };

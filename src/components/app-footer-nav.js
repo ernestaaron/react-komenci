@@ -1,15 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const NavFooter = () => {
+const AppFooterNav = () => {
   return (
-    <footer className="row">
-      <div className="small-4 columns">
-      	<div className="property-info">
-          <h2><a href="https://gitlab.com/abreu.marcos/react-komenci" title="React Komenci">React Komenci</a></h2>
-          <p>ReactJS starter kit wrapping the minimum number of dependencies needed to build real world applications. The project comes configured with many dev dependencies to help you develop your application.</p>
-      	</div>
-      </div>
+    <div>
       <div className="small-4 medium-4 columns align-self-bottom">
         <ul className="nav-footer">
           <li>
@@ -36,8 +30,8 @@ const NavFooter = () => {
           </li>
         </ul>
       </div>
-    </footer>
+    </div>
   );
 };
 
-export default NavFooter;
+export default AppFooterNav;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const NavTop = () => {
+const AppHeaderNav = () => {
   return (
     <div className="top-nav row">
       <div>
@@ -11,4 +11,4 @@ const NavTop = () => {
   );
 };
 
-export default NavTop;
+export default AppHeaderNav;
