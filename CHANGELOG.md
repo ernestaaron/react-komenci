@@ -1,5 +1,18 @@
 # Change Log
 
+## [1.2.2](https://gitlab.com/abreu.marcos/react-komenci/tags/1.2.2)
+[Full Changelog](https://gitlab.com/abreu.marcos/react-komenci/tags/1.2.2)
+
+**Implemented enhancements**
+- better names for app coponents
+- upgrade all app dependencies to the latest version
+
+**Fixed bugs:**
+
+**Merged pull requests:**
+
+
+
 ## [1.2.1](https://gitlab.com/abreu.marcos/react-komenci/tags/1.2.1)
 [Full Changelog](https://gitlab.com/abreu.marcos/react-komenci/tags/1.2.1)
 
