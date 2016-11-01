@@ -1,6 +1,10 @@
 import webpack from 'webpack';
 import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
+import { getLocalNetwork } from './tools/network';
+
+const localAddress = getLocalNetwork() || 'localhost';
+
 
 const GLOBALS = {
   'process.env.NODE_ENV': JSON.stringify('development'),
@@ -19,7 +23,7 @@ export default {
   target: 'web', // necessary per https://webpack.github.io/docs/testing.html#compile-and-test
   output: {
     path: `${__dirname}/src`, // Note: Physical files are only output by the production build task `npm run build`.
-    publicPath: 'http://localhost:5000/', // Use absolute paths to avoid the way that URLs are resolved by Chrome when they're parsed from a dynamically loaded CSS blob. Note: Only necessary in Dev.
+    publicPath: 'http://' + localAddress + ':5000/', // Use absolute paths to avoid the way that URLs are resolved by Chrome when they're parsed from a dynamically loaded CSS blob. Note: Only necessary in Dev.
     filename: '[name].bundle.js',
     chunkFilename: '[name].chunk.js'
   },
