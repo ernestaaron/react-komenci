@@ -1,5 +1,17 @@
 # Change Log
 
+## [1.3.0](https://gitlab.com/abreu.marcos/react-komenci/tags/1.3.0)
+[Full Changelog](https://gitlab.com/abreu.marcos/react-komenci/tags/1.3.0)
+
+**Implemented enhancements**
+- Add dynamic local ip address configuration for development server
+
+**Fixed bugs:**
+
+**Merged pull requests:**
+
+
+
 ## [1.2.2](https://gitlab.com/abreu.marcos/react-komenci/tags/1.2.2)
 [Full Changelog](https://gitlab.com/abreu.marcos/react-komenci/tags/1.2.2)
 
