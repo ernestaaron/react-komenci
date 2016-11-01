@@ -27,7 +27,6 @@ export const getLocalNetwork = () => {
     });
   });
 
-  console.log(addressList);
   if (addressList.length > 0) {
     return addressList[0].address;
   }
