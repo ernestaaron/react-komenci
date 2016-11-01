@@ -1,4 +1,15 @@
 # Change Log
+## [1.3.1](https://gitlab.com/abreu.marcos/react-komenci/tags/1.3.1)
+[Full Changelog](https://gitlab.com/abreu.marcos/react-komenci/tags/1.3.1)
+
+**Implemented enhancements**
+
+**Fixed bugs:**
+- removing unnecessary console log statement
+
+**Merged pull requests:**
+
+
 
 ## [1.3.0](https://gitlab.com/abreu.marcos/react-komenci/tags/1.3.0)
 [Full Changelog](https://gitlab.com/abreu.marcos/react-komenci/tags/1.3.0)
